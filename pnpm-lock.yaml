@@ -14,8 +14,8 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4(express@5.2.1)
       '@514labs/moose-lib':
-        specifier: latest
-        version: 0.6.341(@swc/core@1.15.10)(@types/node@20.19.30)(ts-patch@3.3.0)(tsconfig-paths@4.2.0)(tslib@2.8.1)(typia@9.7.2(@types/node@20.19.30)(typescript@5.9.3))
+        specifier: 0.6.341-ci-3-gfa1f2a911
+        version: 0.6.341-ci-3-gfa1f2a911(@swc/core@1.15.10)(@types/node@20.19.30)(ts-patch@3.3.0)(tsconfig-paths@4.2.0)(tslib@2.8.1)(typia@9.7.2(@types/node@20.19.30)(typescript@5.9.3))
       '@cfworker/json-schema':
         specifier: 4.1.1
         version: 4.1.1
@@ -39,8 +39,8 @@ importers:
         version: 3.25.76
     devDependencies:
       '@514labs/moose-cli':
-        specifier: latest
-        version: 0.6.341
+        specifier: 0.6.341-ci-3-gfa1f2a911
+        version: 0.6.341-ci-3-gfa1f2a911
       '@types/express':
         specifier: ^5.0.3
         version: 5.0.6
@@ -250,27 +250,27 @@ packages:
     resolution: {integrity: sha512-wE9zNdx39tcXOlMN4RGQEkuwGPUIJ+4xVQ4WRMFOjVN9Ixndat89jTUIBQSlCOc4B3RrRcn4VTz13pJo9tESMg==}
     engines: {node: '>=18.0.0'}
 
-  '@514labs/moose-cli-darwin-arm64@0.6.341':
-    resolution: {integrity: sha512-wR1BMe2zFKxu64fNy/HjnlfBOFpwe6zeA8LyOySj5vibKkK1CWhsSwZdIxKySsrTbC1XMqLCK9mIuaNfFBP91A==}
+  '@514labs/moose-cli-darwin-arm64@0.6.341-ci-3-gfa1f2a911':
+    resolution: {integrity: sha512-2cCNmFqz9oIPIGZ6QklMofeoPVnZTIP6kGX7fC8gL3wQtCAMuFX2/S1U9j9rd+iqPQa6Xgs9TOJFu7vbzENfBg==}
     cpu: [arm64]
     os: [darwin]
 
-  '@514labs/moose-cli-linux-arm64@0.6.341':
-    resolution: {integrity: sha512-TlVNEEk9J75Zm80Drad5RLrP0Wrg+bTleB4fKSbOfbgRkohZEAtPNHRyVAhBvZVMYLg55yelZh6ZzGeCX0mVbQ==}
+  '@514labs/moose-cli-linux-arm64@0.6.341-ci-3-gfa1f2a911':
+    resolution: {integrity: sha512-a1jHcbGCw5xcel6OgexNMZvQiHMWmEVVkOSp2z8KCd4TMYLz4sTcRL6pFqyIgKLGXF2pK/uPMjWUEeRRRK+LAQ==}
     cpu: [arm64]
     os: [linux]
 
-  '@514labs/moose-cli-linux-x64@0.6.341':
-    resolution: {integrity: sha512-FUyIcYEy6dGTm/XRYMigZhPM1s0bI74ji0cc//XvgbH0WNg29RoI29vTtXbYGp5V90n8JfVqxr7avVPeaMg7tQ==}
+  '@514labs/moose-cli-linux-x64@0.6.341-ci-3-gfa1f2a911':
+    resolution: {integrity: sha512-bWxyLhwHhRdLZ0eE+FQG1aAJR+Lfiij8IZa3FOuqg32SDPGRGUEagawBnoITm9EV9VJrKiMSZYZOEbylrtg0RQ==}
     cpu: [x64]
     os: [linux]
 
-  '@514labs/moose-cli@0.6.341':
-    resolution: {integrity: sha512-Ua4ECe7SfLpi25406W3FU2G3OqzSiCajGR1OzkAsUBmjw+2FE6M0FG8C2shYeD0fbNbl+1IjASmsZ6B2laOFFQ==}
+  '@514labs/moose-cli@0.6.341-ci-3-gfa1f2a911':
+    resolution: {integrity: sha512-uNbvC7f4XKpUwH04mdvr80JCXBiRTJgrwTI+aCax3NP2eN1m8Dqi3revWz176U6B1piUOs7zSnxDNwkR0ifxHA==}
     hasBin: true
 
-  '@514labs/moose-lib@0.6.341':
-    resolution: {integrity: sha512-88+7guO7V4oUtxhhLL8iUe0QrpCOKKjQ0c5V/0Jz5lOCpcY3uODOH92Fp3IEm4vDfv7me0gbj+6PqPo7RJITbQ==}
+  '@514labs/moose-lib@0.6.341-ci-3-gfa1f2a911':
+    resolution: {integrity: sha512-X/4aNnVQskgI4xu2nApPG3GLkkrft+mJVFRHQ5N4IS39SLFhu/BIEIAbfwzZn97Zw+G+sI/kdpvkJCevR5pBDA==}
     engines: {node: '>=20 <25'}
     hasBin: true
     peerDependencies:
@@ -4815,22 +4815,22 @@ snapshots:
       - encoding
       - supports-color
 
-  '@514labs/moose-cli-darwin-arm64@0.6.341':
+  '@514labs/moose-cli-darwin-arm64@0.6.341-ci-3-gfa1f2a911':
     optional: true
 
-  '@514labs/moose-cli-linux-arm64@0.6.341':
+  '@514labs/moose-cli-linux-arm64@0.6.341-ci-3-gfa1f2a911':
     optional: true
 
-  '@514labs/moose-cli-linux-x64@0.6.341':
+  '@514labs/moose-cli-linux-x64@0.6.341-ci-3-gfa1f2a911':
     optional: true
 
-  '@514labs/moose-cli@0.6.341':
+  '@514labs/moose-cli@0.6.341-ci-3-gfa1f2a911':
     optionalDependencies:
-      '@514labs/moose-cli-darwin-arm64': 0.6.341
-      '@514labs/moose-cli-linux-arm64': 0.6.341
-      '@514labs/moose-cli-linux-x64': 0.6.341
+      '@514labs/moose-cli-darwin-arm64': 0.6.341-ci-3-gfa1f2a911
+      '@514labs/moose-cli-linux-arm64': 0.6.341-ci-3-gfa1f2a911
+      '@514labs/moose-cli-linux-x64': 0.6.341-ci-3-gfa1f2a911
 
-  '@514labs/moose-lib@0.6.341(@swc/core@1.15.10)(@types/node@20.19.30)(ts-patch@3.3.0)(tsconfig-paths@4.2.0)(tslib@2.8.1)(typia@9.7.2(@types/node@20.19.30)(typescript@5.9.3))':
+  '@514labs/moose-lib@0.6.341-ci-3-gfa1f2a911(@swc/core@1.15.10)(@types/node@20.19.30)(ts-patch@3.3.0)(tsconfig-paths@4.2.0)(tslib@2.8.1)(typia@9.7.2(@types/node@20.19.30)(typescript@5.9.3))':
     dependencies:
       '@514labs/kafka-javascript': 1.7.1-patch
       '@clickhouse/client': 1.8.1

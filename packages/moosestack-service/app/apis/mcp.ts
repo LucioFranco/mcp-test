@@ -467,7 +467,7 @@ app.all("/", async (req, res) => {
     console.log(`[MCP] Handling ${req.method} request (stateless mode)`);
 
     // Get MooseStack utilities (ClickHouse client and SQL helpers)
-    const mooseUtils = getMooseUtils(req);
+    const mooseUtils = await getMooseUtils(req);
 
     if (!mooseUtils) {
       throw new Error("MooseStack utilities not available");
